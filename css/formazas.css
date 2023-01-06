@@ -1,0 +1,281 @@
+body , html{
+    padding: 0px !important;
+    margin: 0px !important;
+    background-color: #0C0A1D;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg-dark{
+    background-color: #0C0A1D !important;
+}
+
+.nav-link{
+    color: #A2A0A7 !important;
+    font-variant: small-caps;
+    font-size: 22px;
+    padding-left: 8px !important;
+}
+
+.dcbtn{
+    font-variant: small-caps;
+    font-weight: bold;
+    margin-top: 5px;
+    padding-left: 23px !important;
+    padding-right: 23px !important;
+    padding-top: 5px;
+    padding-bottom: 5px; 
+    border-radius: 50px;
+    border-color: #2E2363 !important;
+    background-color: #0c1e5f !important;
+    color: white !important;
+}
+
+.binancefuturesbtn{
+    font-variant: small-caps;
+    padding-right: 12px !important;
+    padding-top: 1px !important;
+    padding-bottom: 1px !important;
+    font-weight: bold;
+    border-radius: 100px;
+    border-color: #2E2363 !important;
+    background-color: #221A47 !important;
+    color: white !important;
+    pointer-events: none;
+}
+
+.binancefuturesbtn2{
+    font-variant: small-caps;
+    padding-right: 20px !important;
+    padding-left: 20px;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+    font-weight: bold;
+    border-radius: 100px;
+    border-color: #2E2363 !important;
+    background-color: #221A47 !important;
+    color: white !important;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .yellow{
+    color:#EECE3B;
+  }
+
+  a, a:hover{
+    color: inherit;
+    text-decoration: none;
+  }
+
+.cimsor{
+    font-size: 50px !important;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mobilebg{
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+.vedelem{
+    pointer-events: none;
+}
+
+.nav-link:hover{
+    color:white !important;
+}
+
+.h2ugras{
+    color: white; 
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: bold; 
+    padding-top: 10px; 
+    font-size: 25px;
+    text-shadow: 0 0 4px #fff, 0 0 10px rgb(65, 65, 65), 0 0 14px rgb(29, 29, 29), 0 0 10px rgb(5, 5, 5),0 0 14px rgb(51, 73, 66);
+}
+
+.h2ugras:hover{
+    color: white; 
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: bold; 
+    padding-top: 10px; 
+    font-size: 25px;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 42px #0fa, 0 0 82px #0fa,0 0 92px #0fa;
+
+}
+
+.rolunkal{
+    color:#D9D8DB;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 6px;
+    font-size: 20px;
+}
+
+.rolunkfo{
+    color:#252525;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 6px;
+    font-size: 50px;
+}
+
+.rolunkalt{
+    color:#252525;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 6px;
+    font-size: 20px;
+    padding-bottom: 35px;
+}
+
+
+#more {display: none;}
+
+p{
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.oldalcsik{
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    width: 100%;
+    margin: 0px !important;
+    pointer-events: none;
+}
+
+.bovitettoldal{
+    background-color: #FCF8FC;
+}
+
+.btcg{
+    width: auto;
+    height: 350px;
+
+}
+
+.fadein {
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+.grapszöveg{
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.alttext{
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.onHoover div {
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+  }
+  .onHoover:hover div {
+    top: -10px;
+  }
+
+
+
+  .section_padding_130 {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+.faq_area {
+    position: relative;
+    z-index: 1;
+    background-color: #FCF8FC;
+}
+
+.faq-accordian {
+    position: relative;
+    z-index: 1;
+}
+.faq-accordian .card {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 1.5rem;
+}
+.faq-accordian .card:last-child {
+    margin-bottom: 0;
+}
+.faq-accordian .card .card-header {
+    background-color: #ffffff;
+    padding: 0;
+    border-bottom-color: #bdb7b7;
+}
+.faq-accordian .card .card-header h6 {
+    cursor: pointer;
+    padding: 1.75rem 2rem;
+    color: #3f43fd;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -ms-grid-row-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.faq-accordian .card .card-header h6 span {
+    font-size: 1.5rem;
+}
+.faq-accordian .card .card-header h6.collapsed {
+    color: #070a57;
+}
+.faq-accordian .card .card-header h6.collapsed span {
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+}
+.faq-accordian .card .card-body {
+    padding: 1.75rem 2rem;
+}
+.faq-accordian .card .card-body p:last-child {
+    margin-bottom: 0;
+}
+
+.arnyek{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
