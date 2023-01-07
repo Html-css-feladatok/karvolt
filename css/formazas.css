@@ -30,6 +30,23 @@ body , html{
     color: white !important;
 }
 
+.dcbtnlogin{
+    font-variant: small-caps;
+    font-weight: bold;
+    margin-top: 5px;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    padding-top: 5px;
+    padding-bottom: 5px; 
+    border-radius: 50px;
+    border-color: #2E2363 !important;
+    background-color: #0c1e5f !important;
+    color: white !important;
+    position:absolute;
+    left: 89%;
+    padding-right: 5px;
+}
+
 .btn{
     font-variant: small-caps;
     padding-right: 12px !important;
