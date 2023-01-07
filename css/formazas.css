@@ -56,6 +56,31 @@ body , html{
     color: white !important;
 }
 
+.btn2_altpage{
+    font-variant: small-caps;
+    padding-right: 80px !important;
+    padding-left: 80px;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    font-weight: bold;
+    border-radius: 100px;
+    border-color: #2E2363 !important;
+    background-color: #ececee !important;
+    color: rgb(29, 29, 29) !important;
+}
+
+.btn2_altpage:hover{
+    font-variant: small-caps;
+    padding-right: 80px !important;
+    padding-left: 80px;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    font-weight: bold;
+    border-radius: 100px;
+    background-color: #1b1b1b !important;
+    color: rgb(255, 255, 255) !important;
+}
+
 .dot {
     height: 10px;
     width: 10px;

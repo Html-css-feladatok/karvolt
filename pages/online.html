@@ -12,24 +12,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/formazas.css">
-    <script>
-      function myFunction() {
-        var dots = document.getElementById("tovabb");
-        var moreText = document.getElementById("more");
-        var btnText = document.getElementById("myBtn");
-      
-        if (dots.style.display === "none") {
-          dots.style.display = "inline";
-          btnText.innerHTML = "Tudj meg többet!"; 
-          moreText.style.display = "none";
-        } else {
-          dots.style.display = "none";
-          btnText.innerHTML = "Eleget tudok!"; 
-          moreText.style.display = "inline";
-        }
-      }
-      </script>
+    <link rel="stylesheet" href="..\css\formazas.css">
 
   <title>Földről a csillagok </title>
 </head>
@@ -52,10 +35,9 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link" href="#">Kezdőlap</a>
-              <a class="nav-link" href="#aboutus">Rólunk</a>
-              <a class="nav-link" href="#services">Szerezz tagságot</a>
-              <a class="nav-link" href="#faq">Gyik</a>
+              <a class="nav-link" href="../index.html">Kezdőlap</a>
+              <a class="nav-link" href="#vasarlas">Rólunk</a>
+              <a class="nav-link" href="../index.html">Vissza</a>
               <a class="nav-link dcbtn" style="position:absolute; right: 25px;" href="https://www.nasa.gov/">Nasa</a>
             </div>
           </div>
@@ -65,28 +47,27 @@
 <!-- Kezőlap-->
 
 <div class="container-fluid">
-    <img src="images/hsbg.png" class="rounded mx-auto d-block mobilebgremove fadein vedelem" alt="Hatter - Wallpaper">
-    <img src="images/mobilebgimage.png" class="rounded mx-auto d-block mobilebg fadein" alt="Hatter - Wallpaper">
+    <img src="../images/hsbg.png" class="rounded mx-auto d-block mobilebgremove fadein vedelem" alt="Hatter - Wallpaper">
+    <img src="../images/mobilebgimage.png" class="rounded mx-auto d-block mobilebg fadein" alt="Hatter - Wallpaper">
     <div class="container">
         <div class="row">
           <div class="col text-center">
             <button class="btn btn-warning btn"> <span class="dot"></span> CSILLAGOK</button>
-        <h1 style="color:white; padding-top: 20px; font-family: 'Montserrat', sans-serif; font-size: 50px;">Üdvözöl a <span class="yellow">Csillagkutatók egyesülete</span></h1> 
-        <h3 class="rolunkal">Magyarország egyik legnagyobb csillagokat kutatók <br> egyesülete!</h3>
-        <a class="h2ugras" href="#aboutus"> <h2> Vigyél körbe! <i class="fa-solid fa-arrow-right"></i></a></h2>
+        <h1 style="color:white; padding-top: 20px; font-family: 'Montserrat', sans-serif; font-size: 50px;">Online előadások <span class="yellow">és minden ami égitest!</span></h1> 
+        <a class="h2ugras" href="#vasarlas"> <h2> Tag akarok lenni! <i class="fa-solid fa-arrow-right"></i></a></h2>
         </div>
         </div>
       </div>
 </div>
 
-<div style="padding:90px;">
+<div id="vasarlas"  style="padding:90px;">
 </div>
 
 <div class="container-fluid">
   <div class="container">
       <div class="row">
           <div class="col text-center">
-          <h1 class="cimsor"><span style="color: #C5C9CE;">Ez minden </span><br> amire büszkék vagyunk</h1>
+          <h1 class="cimsor"><span style="color: #ffffff;">Mit nyújtunk? </span></h1>
           </div>
       </div>
   </div>
@@ -98,139 +79,40 @@
 <div class="container">
   <div class="row">
     <div class="col-xs col-md-6 col-lg item cardsformazas glasseffect onHoover">
-      <i class="fa-solid fa-rocket svgresizer"></i>
-      Mit csinálunk?
+      <i class="fa-solid fa-magnifying-glass svgresizer"></i>
+      Előadásról
       <div class="col-xs col-md-6 col-lg item">
-         <p> A csillagkutatók a Kepler-űrtávcső segítségével figyelik, gyűjtik be és elemzik a bolygókról érkező adatokat. Minden ismert kis planéta pályáját végigmérik, mely áthalad az úrtávcső látómezején. </p>
+         <p> Az előadáson elmondjuk neked hogy mit kell figyelned és hogyan vizsgálódunk.</p>
         </div>
     </div>
     <div class="col-xs col-md-6 col-lg item cardsformazas glasseffect onHoover">
-      <i class="fa-solid fa-users svgresizer"></i>
-      Munkánk
+      <i class="fa-solid fa-check svgresizer"></i>
+      Fizetés menete
       <div class="col-xs col-md-6 col-lg item">
-          <p> Az Aranyjános kisbolygóval kapcsolatban arra voltak kíváncsiak a csillagászok, hogy milyen hosszú egy nap a felszínén. Az égitestek forgási periódusával ezt tudják kiszámolni a kutatók.</p>
+          <p> A befizetés után emailcímedre küldjük a belépéshez szükséges jegyet.</p>
       </div>
     </div>
     <div class="col-xs col-md-6 col-lg item cardsformazas glasseffect onHoover">
-      <i class="fa-solid fa-star svgresizer"></i>
-      Aranyjánosról
+      <i class="fa-solid fa-location-dot svgresizer"></i>
+      Helyszín
       <div class="col-xs col-md-6 col-lg item">
-          <p> A bolygót felfedezők tíz évig élhetnek a névadás jogával, így Sárneczky Krisztián Aranyjánosnak keresztelte az aszteroidát, mivel szóközt nem lehetett használni. </p>
+          <p> Az előadás helyszíne az ELTE főépülete 2/B csarnok </p>
           </div>
     </div>
   </div>
 </div>
 
-  <div style="padding:35px;">
+
+<div style="padding:35px;">
+    <center><a href="https://csillagaszok.hu/jegyek"><button class="btn2_altpage">Vedd meg most!</button></a></center><
 </div>
 
-    <img src="images/oldalcsik.png" class="rounded mx-auto d-block oldalcsik" alt="oldalsav">
+<img src="../images/oldalcsik.png" class="rounded mx-auto d-block oldalcsik" alt="oldalsav">
 
 <div class="bovitettoldal">
 
-
-    <div id="aboutus" style="padding:35px;">
-    </div>
-    <center><h1 class="rolunkfo">Rólunk</h1>
-      <h2 class="rolunkalt">Nekünk már hobbi, neked pedig lehetőség. </h2>
-    </center>
-    <div class="container">
-      <div class="row align-items-center">
-          <div class="col-lg-6">
-              <div class="about-text">
-                  <span class="top-title"></span>
-                  <h2>Közös a célunk..</h2>
-                  <p> A kozmoszból érkező röntgensugarak vizsgálata rendkívül fontos a csillagászat számára, mert a legforróbb égitestek sugárzásának zöme a röntgenhullámhosszak tartományába esik. Ezek a sugárzások nem tudnak mélyen behatolni a légkörbe, ezért észlelésükhöz műholdakat használnak. Régebben magasan szálló ballonokkal vagy rakétákról észleltek. A nagyenergiájú elektromágneses hullámokat gyakran a foton energiájával jellemzik a hullámhossz helyett. Eszerint a lágy röntgensugárzás a 0,1-10 keV tartományban, a kemény röntgensugárzás a 10-100 keV tartományban található.</p>
-              </div>
-          </div>
-
-          <div class="col-lg-6">
-              <div class="about-img mt-0">
-              <img class="btcg" decoding="async" src="images/celok.png" alt="Image">
-              </div>
-          </div>
-      </div>
-  </div>
-  <div class="container">
-    <div class="row align-items-center">
-        <div class="col-lg-6">
-            <div class="about-text">
-                <span class="top-title"></span>
-                <h2>Történetünk</h2>
-                <p>Ezek a sugárzások nem tudnak mélyen behatolni a légkörbe, ezért észlelésükhöz műholdakat használnak. 
-                  <span id="tovabb">...</span><span id="more">Régebben magasan szálló ballonokkal vagy rakétákról észleltek. 
-                    A nagyenergiájú elektromágneses hullámokat gyakran a foton energiájával jellemzik a hullámhossz helyett. 
-                    Eszerint a lágy röntgensugárzás a 0,1-10 keV tartományban, a kemény röntgensugárzás a 10-100 keV tartományban található.</span></p>
-                         
-<button class="btn2" onclick="myFunction()" id="myBtn">Tudj meg többet!</button>
-            </div>
-        </div>
-
-
-        <div class="col-lg-6">
-            <div class="about-img mt-0">
-           <center> <img class="btcg" decoding="async" src="images/download.png" alt="Image"> </center>
-            </div>
-        </div>
-    </div>
-</div>
-  
-
-
-</div>
-
-<img src="images/oldalcsik2.png" class="rounded mx-auto d-block oldalcsik" alt="oldalsav">
 <div id="services" style="padding:35px;">
 </div>
-
-<div class="container my-auto">
-  <center><h1 class="services">Szolgáltatásunk</h1> </center>
-  <div class="row">
-      <div class="col-md-6 col-sm-6">
-          <div class="pricingTable">
-              <div class="pricing_heading">
-                  <h3 class="title">Csillagkutatók - kisgöncöl</h3>
-                  <span class="value">
-                      1200Ft
-                      <span class="month">per hónap</span>
-                  </span>
-              </div>
-              <div class="content">
-                  <ul>
-                      <li>Juss be előadásainkra az ELTÉBEN</li>
-                      <li>Online előadás egy csillagászunkkal</li>
-                  </ul>
-                  <div class="link">
-                      <a href="pages/online.html">Érdekel!</a>
-                  </div>
-              </div>
-          </div>
-      </div>
-
-      <div class="col-md-6 col-sm-6">
-          <div class="pricingTable">
-              <div class="pricing_heading">
-                  <h3 class="title">Csillagkutatók - Dél keresztje</h3>
-                  <span class="value">
-                      4300Ft
-                      <span class="month">per hónap</span>
-                  </span>
-              </div>
-              <div class="content">
-                  <ul>
-                      <li>Csillagkutatók heti újság</li>
-                      <li>Online jelenségnaptár  </li>
-                  </ul>
-                  <div class="link">
-                      <a href="#">Jelentkeznék!</a>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
-</div>
-
-<img src="images/oldalcsik.png" class="rounded mx-auto d-block oldalcsik" alt="oldalsav">
 
 </div>
     <div class="faq_area section_padding_130" id="faq">
@@ -292,35 +174,7 @@
           </div>
       </div>
   </div>
-  <img src="images/oldalcsik2.png" class="rounded mx-auto d-block oldalcsik" alt="oldalsav">
+  <img src="../images/oldalcsik2.png" class="rounded mx-auto d-block oldalcsik" alt="oldalsav">
 
-  <footer class="bg-dark text-center text-white">
-    <div class="container p-4 pb-0">
-      <section class="">
-        <form action="config.php">
-          <div class="row d-flex justify-content-center">
-            <div class="col-auto">
-              <p class="pt-2">
-                <strong>Iratkozz fel hírlevelünkre!</strong>
-              </p>
-            </div>
-            <div class="col-md-5 col-12">
-              <div class="form-outline form-white mb-4">
-                <input placeholder="Email címed" type="email" name="email" id="form5Example29" class="form-control" />
-              </div>
-            </div>
-            <div class="col-auto">
-              <button type="submit" class="btn btn-outline-light mb-4" value="Küldés">
-                Feliratkozás
-              </button>
-            </div>
-          </div>
-        </form>
-      </section>
-    </div>
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2023 Copyright - Csillagkutatók
-    </div>
-  </footer>
 </body>
 </html>
