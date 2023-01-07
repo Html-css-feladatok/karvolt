@@ -86,16 +86,16 @@ body , html{
     color: rgb(29, 29, 29) !important;
 }
 
-.btn2_altpage:hover{
-    font-variant: small-caps;
-    padding-right: 80px !important;
-    padding-left: 80px;
-    padding-top: 10px !important;
-    padding-bottom: 10px !important;
+.btn3{
+    padding-right: 20px !important;
+    padding-left: 20px;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
     font-weight: bold;
     border-radius: 100px;
-    background-color: #1b1b1b !important;
-    color: rgb(255, 255, 255) !important;
+    border-color: #2E2363 !important;
+    background-color: #221A47 !important;
+    color: white !important;
 }
 
 .dot {
